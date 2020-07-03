@@ -1,0 +1,36 @@
+
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container-text {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-bottom: 4px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.input-field {
+  box-sizing: border-box;
+  width: 80%;
+  height: calc(3em + 2px);
+  margin: 0 0 0em;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 1.5em;
+  background: #fff;
+  resize: none;
+  outline: none;
+  font-size: 10px;
+  
+  
+}
+
+.input-field:focus {
+  border: 5px solid rgb(238, 13, 81);
+}
